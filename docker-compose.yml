@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  dvwav2:
+    image: vulnerables/web-dvwa
+    ports:
+      - "4280:80"
+    restart: always
